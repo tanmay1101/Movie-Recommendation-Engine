@@ -4,12 +4,6 @@ import streamlit as st   # is an open-source app framework to create web apps fo
 import pickle
 import requests  # to send HTTP requests
 #import style as style  # for styling out web app
-from PIL import Image   # to read image# Importing essential liberaries
-import pandas as pd
-import streamlit as st   # is an open-source app framework to create web apps for ML
-import pickle
-import requests  # to send HTTP requests
-import style as style  # for styling out web app
 from PIL import Image   # to read image
 
 # Loading model and dataset that we have created in juyter notebook
