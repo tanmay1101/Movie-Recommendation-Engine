@@ -50,13 +50,15 @@ image = Image.open('movie.jpg')
 st.image(image, width= 1000, use_column_width= True)
 
 selected_movie_name = st.selectbox(
- 'Which is your favourite movie?',
+ 'Please input your favourite movie...',
  movies['title'].values)
 
 ### Creating a button that will give all 5 movies and their poster
 if st.button('Recommend'):
+   'We recommend you to watch below 5 movies to watch.....'
    recommended_movie_names, recommended_movie_posters= recommend(selected_movie_name)
    col1, col2, col3, col4, col5 = st.beta_columns(5)
+   'Thanks for your interest. This app is created by Tanmay Dwivedi'
    with col1:
        st.text(recommended_movie_names[0])
        st.image(recommended_movie_posters[0])
