@@ -2,8 +2,9 @@
 tmdb-movie-dataset-analysis is an report for analyzing the TMDB movie data containing information about 50000 movies from The Movie Database (TMDB). Firstly, the report raises some questions based on the dataset needed to be researched. 
 1. We will perform Exploratory Data Analysis (EDA) in "MovieDatasetAnalysis.ipynb" notebook to find the insight according to the research questions and will draw the conclusion to illustrate these insights.
 2. We will clean the data like remove missing, duplicates, punctuations etc in  "Preprocessing.ipynb" notebook.
-3. We will create a NLP model using Cosine-Similarity to recommend top 5 movies to a user based on their previous watch history.
-4. Wil create an interactive web app using streamlitit app.
+3. We will apply some text preprossing steps like- TF-IDF, stemming , Lemmetization to clean the text
+4. We will create a NLP model using Cosine-Similarity to recommend top 5 movies to a user based on their previous watch history.
+5. Wil create an interactive web app using pycharm and streamlit .
 
 #Format of Data: .csv file #REQUIREMENTS #NUMPY (sudo -H pip3 install numpy) Numpy will help you to manage multi-dimensional arrays very efficiently. Maybe you won’t do that directly, but since the concept is a crucial part of data science, many other libraries (well, almost all of them) are built on Numpy. Simply put: without Numpy you won’t be able to use Pandas, Matplotlib, Scipy or Scikit-Learn. That’s why you need it on the first hand.
 
