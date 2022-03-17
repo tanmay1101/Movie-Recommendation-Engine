@@ -1,10 +1,28 @@
 # Movie-Recommendation-Engine
-tmdb-movie-dataset-analysis is an report for analyzing the TMDB movie data containing information about 50000 movies from The Movie Database (TMDB). Firstly, the report raises some questions based on the dataset needed to be researched. 
-1. We will perform Exploratory Data Analysis (EDA) in "MovieDatasetAnalysis.ipynb" notebook to find the insight according to the research questions and will draw the conclusion to illustrate these insights.
-2. We will clean the data like remove missing, duplicates, punctuations etc in  "Preprocessing.ipynb" notebook.
-3. We will apply some text preprossing steps like- TF-IDF, stemming , Lemmetization to clean the text
-4. We will create a NLP model using Cosine-Similarity to recommend top 5 movies to a user based on their previous watch history.
-5. Wil create an interactive web app using pycharm and streamlit .
+tmdb-movie-dataset-analysis is an report for analyzing the TMDB movie data containing information about 50000 movies from The Movie Database (TMDB). Firstly, the report raises some questions based on the dataset needed to be researched.
+
+# How to run code
+1. Open project in pycharm
+2. Install "requirement.txt" file.
+3. Run app.py
+
+1. *We will perform Exploratory Data Analysis (EDA) in "MovieDatasetAnalysis.ipynb" notebook to find the insight according to the research questions and will draw the conclusion to illustrate these insights like...
+* How have movie production trends varied over the years?
+* What are the top 20 highest grossing movies? What are the top 20 most expensive movies?
+* How do budgets correlate with revenues? Do higher budget movies have higher revenue?
+* Do certain months of release associate with better revenues?
+* Which months have seen the maximum releases?
+* How do ratings correlate with commercial success (profits)?
+* What run times are associated with each genre?
+* Who are the top 20 directors who made highly rated films? The directors considered for should have made atleast 5 movies in the time period 1960 - 2015 represented in the dataset.
+2. *Data Preprocessing
+* We will clean the data like remove missing, duplicates, punctuations etc in  "Preprocessing.ipynb" notebook.
+* We will apply some text preprossing steps like- TF-IDF, stemming , Lemmetization to clean the text
+3. *Modelling
+* We will make content based recommendation system by using Cosine-Similarity in NLP to recommend top 5 movies to a user based on their previous watch history.
+* cosine similarity is a measure of similarity between two sequences of numbers. For defining it, the sequences are viewed as vectors in an inner product space, and the cosine similarity is defined as the cosine of the angle between them, that is, the dot product of the vectors divided by the product of their lengths. It follows that the cosine similarity does not depend on the magnitudes of the vectors, but only on their angle
+4. *Model Deployment on heroku
+* Wil create an interactive web app using pycharm and streamlit and deploy it to heroku app.
 
 #Format of Data: .csv file #REQUIREMENTS #NUMPY (sudo -H pip3 install numpy) Numpy will help you to manage multi-dimensional arrays very efficiently. Maybe you won’t do that directly, but since the concept is a crucial part of data science, many other libraries (well, almost all of them) are built on Numpy. Simply put: without Numpy you won’t be able to use Pandas, Matplotlib, Scipy or Scikit-Learn. That’s why you need it on the first hand.
 
@@ -18,7 +36,3 @@ tmdb-movie-dataset-analysis is an report for analyzing the TMDB movie data conta
  
 The tools used in this report are Python libraries - numpy, pandas, and matplotlib, pycharm, streamlit, tmdb api. The Jupyter notebook is used to illustrate the interactive analysis.
 
-# How to run code
-1. Open project in pycharm
-2. Install "requirement.txt" file.
-3. Run app.py
